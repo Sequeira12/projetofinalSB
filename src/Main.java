@@ -1,10 +1,8 @@
 public class Main {
     public static void main(String[] args) {
+        int a = 0;
 
-       
-        System.out.println("Hello World!");
         Aplicacao n = new Aplicacao();
-        // se o samu está a ler isto ta bem
-
+        n.ven();
     }
 }
