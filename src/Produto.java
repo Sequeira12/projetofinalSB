@@ -1,7 +1,7 @@
 public class Produto {
     private String identificador;
     private String nome;
-    private int preco_unitario;
+    private double preco_unitario;
     private int stock;
     public String getIdentificador() {
         return identificador;
@@ -9,7 +9,7 @@ public class Produto {
     public String getNome() {
         return nome;
     }
-    public int getPreco_unitario() {
+    public double getPreco_unitario() {
         return preco_unitario;
     }
     public int getStock() {
@@ -32,7 +32,7 @@ public class Produto {
         this.stock = stock;
     }
 
-    public Produto(String identificador, String nome, int preco_unitario, int stock) {
+    public Produto(String identificador, String nome, double preco_unitario, int stock) {
         this.identificador = identificador;
         this.nome = nome;
         this.preco_unitario = preco_unitario;
