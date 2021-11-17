@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import java.util.*;
+import java.util.Scanner;
 public class Venda extends Aplicacao{
     private Cliente cli;
     private ArrayList<Produto> prods = new ArrayList<>();
