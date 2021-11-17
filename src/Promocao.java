@@ -1,4 +1,5 @@
 public class Promocao {
+
     private int num; // nnum = 0, um == 1, pague menos, nuum ==2 ahd
     private Data inicio;
     private Data fim;

@@ -1,5 +1,6 @@
 public class ProdutoLimpeza extends Produto {
     private int grau_toxicidade;
+
     public int getGrau_toxicidade() {
         return grau_toxicidade;
     }

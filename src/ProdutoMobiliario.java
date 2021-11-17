@@ -5,6 +5,7 @@ public class ProdutoMobiliario extends Produto{
         super(identificador, nome, preco_unitario, stock);
         this.peso = peso;
         this.dim = dim;
+
     }
 
     public int getPeso() {

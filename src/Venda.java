@@ -46,6 +46,7 @@ public class Venda extends Aplicacao{
     }
 
     public void setProds(ArrayList<Produto> prods) {
+
         this.prods = prods;
     }
 

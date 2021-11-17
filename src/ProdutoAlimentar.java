@@ -13,6 +13,7 @@ public class ProdutoAlimentar extends Produto {
     public void setPercentagem_gordura(int percentagem_gordura) {
         this.percentagem_gordura = percentagem_gordura;
     }
+
     public ProdutoAlimentar(String identificador, String nome, int preco_unitario, int stock, int num_cal_cem_gramas, int percentagem_gordura) {
         super(identificador, nome, preco_unitario, stock);
         this.num_cal_cem_gramas = num_cal_cem_gramas;

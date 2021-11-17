@@ -4,7 +4,8 @@ public class Cliente {
     private String email;
     private int nTelefone;
     private Data data;
-    private int cona;
+
+
     public Cliente(String nome,String email, String morada, int nTelefone, Data data) {
         this.nome = nome;
         this.morada = morada;

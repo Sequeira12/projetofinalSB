@@ -37,6 +37,7 @@ public class Produto{
 
     public void setStock(int stock) {
         this.stock = stock;
+
     }
 
     public Produto(String identificador, String nome, double preco_unitario, int stock) {

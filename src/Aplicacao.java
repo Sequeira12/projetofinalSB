@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 public class Aplicacao {
+
     ArrayList<Cliente> nd = new ArrayList<>();
     ArrayList<Produto> l = new ArrayList<>();
     ArrayList<Venda> n = new ArrayList<>();
