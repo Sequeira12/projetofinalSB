@@ -1,8 +1,15 @@
-public class Produto {
+
+
+
+public class Produto{
+
     private String identificador;
     private String nome;
     private double preco_unitario;
     private int stock;
+
+    private Promocao n;
+
     public String getIdentificador() {
         return identificador;
     }
@@ -38,4 +45,16 @@ public class Produto {
         this.preco_unitario = preco_unitario;
         this.stock = stock;
     }
+
+    @Override
+    public String toString() {
+        return "Produto{" +
+                "identificador='" + identificador + '\'' +
+                ", nome='" + nome + '\'' +
+                ", preco_unitario=" + preco_unitario +
+                ", stock=" + stock +
+                ", n=" + n +
+                '}';
+    }
 }
+
